@@ -1,0 +1,5 @@
+{
+    "model_path": "data/yolov8s.onnx",
+    "img_size": 640,
+    "names": ["person", "cup"]
+}

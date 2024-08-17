@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+      "id": { "type": "string" },
+      "system_prompt": { "type": "string" },
+      "user_text": { "type": "string" }
+    },
+    "required": ["id", "system_prompt"]
+  }
+  

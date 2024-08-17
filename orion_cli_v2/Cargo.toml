@@ -1,0 +1,27 @@
+[package]
+name = "Orion CLI V2"
+version = "1.0.0"
+edition = "2021"
+
+description = "A Cli for Orion Projects"
+# authors = ["__V_AUTHOR__"]
+# documentation = "https://docs.rs/__V_PROJECT_NAME__"
+# repository = "__V_REPO_URL__"
+# categories = ["...", "..."]
+# keywords = ["...", "..."]
+# license = "Apache-2.0"
+# readme = "../README.md"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_derive = "1"
+serde_yaml = "^0.9.4"
+thiserror = "1"
+
+[dev-dependencies]
+insta = { version = "1.17.1", features = ["yaml", "redactions"] }
+pretty_assertions = "1"
+clap = "4.1.8"
+rstest = "^0.14.0"
+serial_test = "0.4.0"
